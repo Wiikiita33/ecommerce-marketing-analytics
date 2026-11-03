@@ -10,7 +10,7 @@ Using a **synthetic e-commerce dataset** covering January–June 2026, assess th
 
 **1. Meta’s reported ROAS depends materially on one completed transaction.** The €24,990 Meta sale accounts for **39.9%** of its six-month adjusted attributed revenue. Meta’s reported ROAS is **1.37×**, falling to **0.82×** in a diagnostic comparison without that single purchase. The transaction **remains included** in all primary sales and results.
 
-![Meta adjusted ROAS sensitivity](meta_roas_sensitivity_audited.png)
+![Meta ROAS sensitivity](meta_roas_sensitivity.png)
 
 **2. The largest measurable purchase-funnel gap is before add-to-cart.** Across **293,692** observed sessions, **16,441 (5.60%)** included an add-to-cart event and **6,490** checkout starts were recorded. Affiliate and Meta have the lowest session-to-cart rates at **3.54%** and **4.46%**. The underlying extract lacks session-to-order identifiers: checkout/cart ratios are aggregate counts, **not verified within-session transitions**.
 
